@@ -160,7 +160,7 @@
 }
 .modal-check-label {
   color: #8e8f99;
-  margin-left: 8px;
+  padding-left: 8px;
   cursor: pointer;
 
   font-size: 12px;
@@ -208,4 +208,33 @@
 .modal-submit-section {
   display: flex;
   justify-content: center;
+}
+.checkbox-wrapper {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.checkbox {
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+  border: 1px solid #2e2f4266;
+
+  cursor: pointer;
+}
+
+.checkbox:checked + .checkbox-custom-icon {
+  display: block;
+}
+
+.checkbox-custom-icon {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+
+  width: 16px;
+  height: 16px;
+
+  pointer-events: none;
 }

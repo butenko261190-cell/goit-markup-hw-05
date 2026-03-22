@@ -563,10 +563,17 @@
           </div>
 
           <div class="modal-check">
-            <input id="privacy" type="checkbox" name="checkbox" />
-            <svg style="width: 16px; height: 15px">
-              <use href="./images/icons.svg#checkbox"></use>
-            </svg>
+            <div class="checkbox-wrapper">
+              <input
+                class="checkbox"
+                id="privacy"
+                type="checkbox"
+                name="checkbox"
+              />
+              <svg class="checkbox-custom-icon">
+                <use href="./images/icons.svg#checkbox"></use>
+              </svg>
+            </div>
             <label for="privacy" class="modal-check-label">
               I accept the terms and conditions of the
               <a class="modal-check-privacy" href="">Privacy Policy</a>
