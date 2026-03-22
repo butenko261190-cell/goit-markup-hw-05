@@ -487,28 +487,3 @@ ul {
   height: 24px;
   fill: #f4f4fd;
 }
-
-@media print and (min-width: 768px) {
-  .hero-btn {
-    background-color: #31d0aa;
-    width: 28px;
-    height: 28px;
-  }
-
-  .footer-social-link {
-    background-color: #f00ba3;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .footer-icon {
-    width: 30px;
-    height: 30px;
-  }
-}
-
-/* @media screen and (min-width: 768px) and (max-width: 1023px) {
-  .hero-btn {
-    background-color: green;
-  }
-} */
